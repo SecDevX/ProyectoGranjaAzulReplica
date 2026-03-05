@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul: rgba(0, 51, 108, 1);
+    --blanco: white;
+    --gris: rgb(212, 212, 212);
+    --smokewhite: rgb(233, 233, 233);
+    --skyblue: rgb(203, 215, 228);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* El contenido crecerá para empujar al footer */
+}
+
+header {
+    background-color: var(--azul);
+    width: 100%;
+}
+
+/* Contenedor principal-header */
+#container-header {
+    display: flex;
+    justify-content: space-between; /*Separa los elementos del contenedor*/
+    align-items: center; /*Alinea los elementos verticalmente*/
+    max-width: 1200px; /*Limita el ancho del contenedor*/
+    margin: 0 auto; /*Centrar el contenedor horizontalmente*/
+    padding: 10px 20px; /*Espacio interno del contenedor*/
+    height: 150px;
+}
+
+#logo-img {
+    height: 130px;
+    width: auto;
+}
+
+/* Estilo para el Nav */
+header nav ul {
+    list-style: none; /*Elimina los puntos de la lista*/
+    display: flex; /*Muestra los elementos en línea*/
+    gap: 30px; /*Espacio entre los elementos del menú*/
+}
+
+header nav ul li a {
+    text-decoration: none; /*Elimina el subrayado de los enlaces*/
+    color: var(--blanco); /*Color del texto de los enlaces*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase; /*Convierte el texto a mayúsculas*/
+    font-size: 0.9rem; /*Tamaño de fuente para los enlaces*/
+    letter-spacing: 1px; /*Espacio entre letras para mejorar la legibilidad*/
+    font-weight: bold; /*Negrita para los enlaces*/
+    transition: color 0.3s ease; /*Transición suave para el cambio de color*/
+}
+
+header nav ul li a:hover {
+    opacity: 0.8; /*Reduce la opacidad para un efecto de hover*/
+}
+
+/* Estilo para los botones del header */
+.header-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+    height: 100%;
+    background: transparent;
+    justify-content: center;
+}
+
+/* Estilo base para todos los enlaces-botón */
+#button-delivery, .header-button {
+    text-decoration: none; /*Elimina el subrayado de los enlaces*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold; /*Negrita para los enlaces*/
+    border-radius: 4px; /*Bordes redondeados para los botones*/
+    transition: all 0.3s ease; /*Transición suave para el cambio de color*/
+}
+
+/* Boton delivery */
+#button-delivery {
+    width: 75%;
+    height: 45px;
+    background-color: var(--gris);
+    color: var(--azul);
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    border: none; /*Elimina el borde del botón*/
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fila abajo */
+.locales-grid {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.header-button {
+    flex: 1; /*Hace que los botones ocupen el mismo espacio dentro del contenedor*/
+    height: 55px;
+    background-color: transparent;
+    color: var(--blanco);
+    border: 1.5px solid var(--blanco);
+    font-size: 0.75rem;
+    padding: 5px; /*Espacio interno para los botones de locales*/
+    line-height: 1.2;
+}
+
+/* Efecto hover para los enlaces del menú */
+#button-delivery:hover, .header-button:hover {
+    filter: brightness(1.2); /*Aumenta el brillo para un efecto de hover*/
+    transform: translateY(-2px); /*Levantamiento del botón al hacer hover*/
+}
+
+.header-button:hover {
+    /* Al pasar el mouse, se vuelve blanco con texto azul */
+    background-color: var(--blanco);
+    color: var(--azul);
+    transform: translateY(-2px);
+}
