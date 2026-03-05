@@ -1,20 +1,22 @@
 #section-white {
-    background: var(--blanco);
-    padding: 60px 0 200px 0;
-    height: auto;
+    background: var(--white);
+    padding: 40px 0 0 0;
     margin: 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+    z-index: 1; /*Asegura que el contenido esté por encima de la imagen de fondo*/
+    overflow: visible;
 }
 
 #content-nosotros {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 600px;
     text-align: center;
-    gap: 8px;
+    margin-bottom: 20px;
 }
 
 #flor-nosotros {
@@ -22,21 +24,23 @@
 }
 
 #img-nosotros {
-    position: absolute;
-    bottom: -210px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: -180px;
     z-index: 10;
-    width: 60%;
+    width: 75%;
+    max-width: 900px;
+    line-height: 0;
 }
 
 #img-nosotros img {
     width: 100%;
+    display: block;
+    height: auto;
 }
 
 .noto-sans-kaithi-bold-nosotros {
   font-family: "Noto Sans Kaithi", sans-serif;
-  color: var(--azul);
+  color: var(--blue);
   font-size: 13px;
   font-weight: 700;
   line-height: 1.6;
@@ -47,7 +51,7 @@
 
 .windsong-medium {
   font-family: "WindSong", cursive;
-  color: var(--azul);
+  color: var(--blue);
   font-size: 32px;
   font-weight: 500;
   font-style: normal;
@@ -56,7 +60,7 @@
 
 .noto-sans-kaithi-regular-nosotros {
   font-family: "Noto Sans Kaithi", sans-serif;
-  color: var(--azul);
+  color: var(--blue);
   font-size: 13.5px;
   font-weight: 400;
   line-height: 1.6;
@@ -65,22 +69,22 @@
 }
 
 #section-blue {
-    background: var(--azul);
-    padding: 190px 10% 50px 10%;
-    min-height: 80vh;
+    background: var(--blue);
+    padding: 220px 10% 80px 10%;
     margin: 0 30px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
 }
 
 .img-nosotros {
     flex: 1; /*Evita que la imagen se reduzca o crezca más allá de su tamaño original*/
-    height: 400px;
+    height: 380px;
+    max-width: 400px;
     overflow: hidden; /*Evita que la imagen se desborde del contenedor */
-    border-radius: 8px;;
+    border-radius: 12px;;
 }
 
 .img-nosotros img {
@@ -93,12 +97,12 @@
 .content-nosotros {
     flex: 1;
     text-align: left;
-    max-width: 450px;
+    max-width: 380px;
 }
 
 .noto-sans-kaithi-bold-nosotros-wh {
   font-family: "Noto Sans Kaithi", sans-serif;
-  color: var(--blanco);
+  color: var(--white);
   font-size: 13px;
   font-weight: 400;
   line-height: 1.6;
@@ -109,7 +113,7 @@
 
 .windsong-medium-wh {
   font-family: "WindSong", cursive;
-  color: var(--blanco);
+  color: var(--white);
   font-size: 32px;
   font-weight: 500;
   font-style: normal;
@@ -118,21 +122,52 @@
 
 .noto-sans-kaithi-regular-nosotros-wh {
   font-family: "Noto Sans Kaithi", sans-serif;
-  color: var(--blanco);
+  color: var(--white);
   font-size: 13.5px;
   font-weight: 400;
   line-height: 1.6;
   font-style: normal;
+  text-align: justify;
 }
 
 #section-skyblue {
     background: var(--skyblue);
-    padding: 100px 10%;
-    height: 500px;
+    padding: 80px 10%;
+    height: auto;
     margin: 0 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
+}
+
+.noto-sans-kaithi-bold-nosotros-bs {
+  font-family: "Noto Sans Kaithi", sans-serif;
+  color: var(--skybluef);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.windsong-medium-bs {
+  font-family: "WindSong", cursive;
+  color: var(--skybluef);
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+}
+
+.noto-sans-kaithi-regular-nosotros-bs {
+  font-family: "Noto Sans Kaithi", sans-serif;
+  color: var(--skybluef);
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-style: normal;
+  text-align: justify;
 }

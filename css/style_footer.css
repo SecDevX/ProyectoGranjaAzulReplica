@@ -1,6 +1,6 @@
 footer {
-    background-color: var(--azul);
-    color: var(--blanco);
+    background-color: var(--blue);
+    color: var(--white);
     width: 100%;
     padding: 30px 0;
 }
@@ -39,7 +39,7 @@ footer {
 }
 
 i {
-    color: var(--blanco);
+    color: var(--white);
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
@@ -65,7 +65,7 @@ i {
   font-weight: 400;
   font-style: normal;
   font-size: 55px;
-  color: var(--blanco);
+  color: var(--white);
   margin-bottom: -15px;
   line-height: 1;
 }
@@ -82,8 +82,8 @@ i {
 
 #button-suscribete {
     align-self: flex-start;
-    background-color: var(--blanco);
-    color: var(--azul);
+    background-color: var(--white);
+    color: var(--blue);
     border: none;
     padding: 6px 12px;
     margin-top: 5px;
@@ -109,7 +109,7 @@ footer nav ul {
 }
 
 .footer-item a {
-    color: var(--blanco);
+    color: var(--white);
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;

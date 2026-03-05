@@ -20,11 +20,15 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
         </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+        </style>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style_header.css">
         <link rel="stylesheet" href="css/style_footer.css">
         <link rel="stylesheet" href="css/style_index.css">
         <link rel="stylesheet" href="css/style_nosotros.css">
+        <link rel="stylesheet" href="css/style_carta.css">
     </head>
     <body>
         <header>

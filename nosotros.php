@@ -36,9 +36,9 @@
             <img src="img/nosotros/comidanosotros.avif" alt="">
         </div>
         <div class="content-nosotros">
-            <h2>Nuestra familia</h2>
-            <h3>crece y se fortalece</h3>
-            <p>
+            <h2 class="noto-sans-kaithi-bold-nosotros-bs">Nuestra familia</h2>
+            <h3 class="windsong-medium-bs">crece y se fortalece</h3>
+            <p class="noto-sans-kaithi-regular-nosotros-bs">
                 porque siempre estaremos listos para 
                 reencontrarnos, descubriendo nuevas 
                 maneras para seguir disfrutando del sabor 

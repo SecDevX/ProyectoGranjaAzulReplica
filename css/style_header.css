@@ -5,11 +5,12 @@
 }
 
 :root {
-    --azul: rgba(0, 51, 108, 1);
-    --blanco: white;
-    --gris: rgb(212, 212, 212);
+    --blue: rgba(0, 51, 108, 1);
+    --white: white;
+    --gray: rgb(212, 212, 212);
     --smokewhite: rgb(233, 233, 233);
     --skyblue: rgb(203, 215, 228);
+    --skybluef: rgb(4, 81, 168);
 }
 
 body {
@@ -23,7 +24,7 @@ main {
 }
 
 header {
-    background-color: var(--azul);
+    background-color: var(--blue);
     width: 100%;
 }
 
@@ -52,7 +53,7 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none; /*Elimina el subrayado de los enlaces*/
-    color: var(--blanco); /*Color del texto de los enlaces*/
+    color: var(--white); /*Color del texto de los enlaces*/
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase; /*Convierte el texto a mayúsculas*/
     font-size: 0.9rem; /*Tamaño de fuente para los enlaces*/
@@ -92,8 +93,8 @@ header nav ul li a:hover {
 #button-delivery {
     width: 75%;
     height: 45px;
-    background-color: var(--gris);
-    color: var(--azul);
+    background-color: var(--gray);
+    color: var(--blue);
     text-transform: uppercase;
     font-size: 0.95rem;
     border: none; /*Elimina el borde del botón*/
@@ -117,8 +118,8 @@ header nav ul li a:hover {
     flex: 1; /*Hace que los botones ocupen el mismo espacio dentro del contenedor*/
     height: 55px;
     background-color: transparent;
-    color: var(--blanco);
-    border: 1.5px solid var(--blanco);
+    color: var(--white);
+    border: 1.5px solid var(--white);
     font-size: 0.75rem;
     padding: 5px; /*Espacio interno para los botones de locales*/
     line-height: 1.2;
@@ -132,7 +133,7 @@ header nav ul li a:hover {
 
 .header-button:hover {
     /* Al pasar el mouse, se vuelve blanco con texto azul */
-    background-color: var(--blanco);
-    color: var(--azul);
+    background-color: var(--white);
+    color: var(--blue);
     transform: translateY(-2px);
 }
