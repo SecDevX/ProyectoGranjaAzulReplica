@@ -1,2 +1,10 @@
+# Archivos del sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Carpetas de VS Code
 .vscode/
+
+# Logs de PHP
 *.log
