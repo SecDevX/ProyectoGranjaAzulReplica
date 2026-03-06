@@ -1,7 +1,7 @@
 #nuestros-locales {
     background: var(--smokewhite);
     padding: 60px 0;
-    width: 100%; /*Asegura que el contenedor ocupe todo el ancho disponible*/
+    width: 100%; 
 }
 
 .funnel-sans-regular-index {
@@ -81,21 +81,14 @@
   font-style: normal;
   color: var(--blue);
   letter-spacing: 1px;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .destacados-redes {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-@media (max-width: 768px) {
-
-    .local-card, .local-card:nth-child(even) {
-        flex-direction: column; /*Organiza la imagen y el contenido en una columna para pantallas pequeñas*/
-    }
-
-    .local-image, .local-content {
-        width: 100%; /*Hace que la imagen y el contenido ocupen todo el ancho disponible en pantallas pequeñas*/
-    }
 }

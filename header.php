@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="css/style_index.css">
         <link rel="stylesheet" href="css/style_nosotros.css">
         <link rel="stylesheet" href="css/style_carta.css">
+        <link rel="stylesheet" href="css/style_delivery.css">
     </head>
     <body>
         <header>
@@ -45,8 +46,8 @@
                         <li class="nav-item"><a href="index.php">Inicio</a></li>
                         <li class="nav-item"><a href="nosotros.php">Nosotros</a></li>
                         <li class="nav-item"><a href="carta.php">Carta</a></li>
-                        <li class="nav-item"><a href="locales.php">Locales</a></li>
                         <li class="nav-item"><a href="delivery.php">Delivery</a></li>
+                        <li class="nav-item"><a href="locales.php">Locales</a></li>
                         <li class="nav-item"><a href="contactos.php">Contactos</a></li>
                     </ul>
                 </nav>
