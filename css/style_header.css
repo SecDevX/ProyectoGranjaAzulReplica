@@ -137,3 +137,60 @@ header nav ul li a:hover {
     color: var(--blue);
     transform: translateY(-2px);
 }
+
+@media (max-width: 1024px) {
+    #container-header {
+        height: auto;
+        flex-direction: column; /* Apilamos logo, nav y botones */
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .header-button-container {
+        width: 100%; /* Ocupa todo el ancho en tablets */
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        gap: 15px;
+        flex-wrap: wrap; /* Si no caben, se pasan a la siguiente línea */
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 0.8rem;
+    }
+
+    #logo-img {
+        height: 100px; /* Logo un poco más pequeño */
+    }
+    #button-delivery {
+        width: 100%; /* Botón de delivery a todo lo ancho */
+        font-size: 0.85rem;
+    }
+    .locales-grid {
+        flex-direction: column; /* Botones de locales uno sobre otro */
+        gap: 10px;
+    }
+    .header-button {
+        height: 45px; /* Más pocket para el dedo */
+    }
+}
+
+@media (max-width: 480px) {
+    #container-header {
+        padding: 15px 10px;
+    }
+    header nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Menú en dos columnas */
+        text-align: center;
+        width: 100%;
+    }
+    header nav ul li a {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+}

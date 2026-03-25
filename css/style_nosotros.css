@@ -171,3 +171,73 @@
   font-style: normal;
   text-align: justify;
 }
+
+@media (max-width: 1024px) {
+    #section-blue {
+        padding: 150px 5% 50px 5%;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #section-white, #section-blue, #section-skyblue {
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #img-nosotros {
+        margin-bottom: -80px;
+        width: 95%;
+        max-width: none;
+    }
+    #section-blue, #section-skyblue {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+    #section-blue {
+        padding-top: 100px;
+    }
+    #section-skyblue {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .img-nosotros {
+        width: 100%;
+        max-width: 100%;
+        height: 200px;
+        flex: none;
+    }
+    .img-nosotros img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .content-nosotros {
+        max-width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .noto-sans-kaithi-regular-nosotros-wh,
+    .noto-sans-kaithi-regular-nosotros-bs {
+        text-align: center;
+        font-size: 13px;
+    }
+    .windsong-medium-wh, 
+    .windsong-medium-bs {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-nosotros {
+        height: 160px;
+    }
+    #img-nosotros {
+        margin-bottom: -50px;
+    }
+    #section-blue {
+        padding-top: 70px;
+    }
+}

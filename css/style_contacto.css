@@ -1,0 +1,130 @@
+#info-contacto-top {
+    background: var(--white);
+    padding: 50px 20px 30px; /* Reducido un poco */
+    text-align: center;
+    color: var(--blue);
+}
+
+.title-separator-local {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.line-local {
+    height: 1px; /* Más fina para look pocket */
+    width: 60px;  /* Más corta */
+    background: var(--blue);
+}
+
+.main-title-local {
+    font-size: 32px; /* Más compacta */
+    font-weight: 400;
+}
+
+.contact-details-local p {
+    font-size: 16px; /* Más pequeño */
+    margin: 8px 0;
+}
+
+#form-bg-white {
+    background-color: var(--white);
+    padding: 0 20px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#form-skyblue-block {
+    background: var(--skyblue);
+    width: 100%;
+    max-width: 650px; /* REDUCIDO de 750px para efecto pocket */
+    padding: 40px 50px; /* Menos padding interno */
+    position: relative;
+    box-sizing: border-box;
+}
+
+.flor-overlap {
+    width: 45px; /* Flor más pequeña */
+    position: absolute;
+    top: -22px;  /* Ajustado al nuevo tamaño */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form-title-local {
+    color: var(--blue);
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.legal-text-local {
+    font-size: 11px;
+    color: var(--blue);
+    line-height: 1.4;
+    margin-bottom: 25px;
+    text-align: justify;
+    padding: 0 10px; /* Margen interno para el texto legal */
+}
+
+.form-actual-local {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-actual-local input, 
+.form-actual-local textarea {
+    padding: 10px 12px; /* Más compacto */
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    font-size: 13px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--white);
+}
+
+.form-actual-local textarea {
+    height: 120px; /* Altura fija inicial para que no sea gigante */
+}
+
+.form-actual-local input::placeholder,
+.form-actual-local textarea::placeholder {
+    color: #a0b0bb;
+}
+
+.grid-inputs-local {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.btn-submit-local {
+    background: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: 8px 35px;
+    font-weight: 700;
+    font-size: 15px;
+    align-self: center;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit-local:hover {
+    background-color: #002244;
+}
+
+@media (max-width: 600px) {
+    #form-skyblue-block {
+        padding: 30px 15px;
+    }
+    .grid-inputs-local {
+        grid-template-columns: 1fr;
+    }
+}

@@ -29,13 +29,13 @@ footer {
 }
 
 .funnel-sans-regular {
-  font-family: "Funnel Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 15px;
-  margin-bottom: 5px;
-  grid-column: span 2;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 5px;
+    grid-column: span 2;
 }
 
 i {
@@ -122,4 +122,60 @@ footer nav ul {
 .fa-book {
     margin-right: 10px;
     font-size: 1.2rem;
+}
+
+@media (max-width: 1024px) {
+    #container-footer {
+        padding: 20px 30px;
+        gap: 30px;
+    }
+    #footer-section-suscribete {
+        padding-left: 20px; /* Reducimos el espacio excesivo */
+    }
+}
+
+@media (max-width: 768px) {
+    #container-footer {
+        flex-direction: column; /* Todo uno debajo del otro */
+        text-align: center;
+        align-items: center;
+        gap: 40px;
+        padding: 40px 20px;
+    }
+    #footer-section-social-links {
+        align-items: center; /* Centramos iconos y texto */
+        width: 100%;
+    }
+    #footer-section-suscribete {
+        margin-right: 0;
+        padding-left: 0;
+        align-items: center; /* Centramos el bloque de suscripción */
+        width: 100%;
+    }
+    .corinthia-regular {
+        font-size: 45px; /* Un poco más pocket para el celular */
+        margin-bottom: 0;
+    }
+    #button-suscribete {
+        align-self: center; /* Botón centrado */
+        padding: 10px 25px; /* Más grande para el dedo */
+    }
+    footer nav ul {
+        align-items: center;
+        gap: 15px;
+    }
+    .footer-item a {
+        font-size: 0.9rem; /* Un poco más legible */
+    }
+}
+
+
+@media (max-width: 480px) {
+    .roboto-min {
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+    .social-icons i {
+        font-size: 1.8rem; 
+    }
 }

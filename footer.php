@@ -17,10 +17,10 @@
                 </div>
                 <nav aria-label="Navegación del pie de página">
                     <ul>
-                        <li class="footer-item"><a href="#">Política de privacidad</a></li>
-                        <li class="footer-item"><a href="#">Política de cookies</a></li>
-                        <li class="footer-item"><a href="#">Comprobante electrónico</a></li>
-                        <li class="footer-item"><a href="#"><i class="fa-solid fa-book"></i>Libro de reclamaciones</a></li>
+                        <li class="footer-item"><a href="https://www.invertur.com.pe/granjaazul/pol%C3%ADtica-de-privacidad.pdf">Política de privacidad</a></li>
+                        <li class="footer-item"><a href="https://www.invertur.com.pe/granjaazul/politicadecookies.pdf">Política de cookies</a></li>
+                        <li class="footer-item"><a href="https://ose.efact.pe/busca-tu-comprobante/">Comprobante electrónico</a></li>
+                        <li class="footer-item"><a href="http://35.171.118.73/granja_azul/libro_reclamaciones/reclamacion.php"><i class="fa-solid fa-book"></i>Libro de reclamaciones</a></li>
                     </ul>
                 </nav>
             </div>

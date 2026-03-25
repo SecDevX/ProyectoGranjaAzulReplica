@@ -8,24 +8,24 @@
         </div>
         <div id="options-delivery">
             <div class="type-delivery">
-                <h3 class="text-delivery">Por web</h3>
-                <a href="#" class="button-order">PEDIR</a>
+                <h3 class="text-delivery">Por <br> web</h3>
+                <a href="https://pedidos.granja-azul.com/" class="button-order">PEDIR</a>
             </div>
             <div class="type-delivery">
-                <h3 class="text-delivery">Por Rappi</h3>
-                <a href="#" class="button-order">PEDIR</a>
+                <h3 class="text-delivery">Por <br> Rappi</h3>
+                <a href="https://www.rappi.com.pe/" class="button-order">PEDIR</a>
             </div>
             <div class="type-delivery">
                 <h3 class="text-delivery">Por PedidosYa</h3>
-                <a href="#" class="button-order">PEDIR</a>
+                <a href="https://www.pedidosya.com.pe/" class="button-order">PEDIR</a>
             </div>
         </div>
     </section>
     <section id="horario-delivery">
-        <p class="Horario-title">Horario de recepción de pedidos</p>
-        <p class="Horario-text">
+        <p class="horario-title">Horario de recepción de pedidos</p>
+        <p class="horario-text">
             De lunes a sábado de 12 pm. a 10 pm. <br>
-            y domingo de 11:30 am. a 8 pm.
+                y domingo de 11:30 am. a 8 pm.
         </p>
         <span class="msj-cobertura">*Verificar en cada app la zona de cobertura</span>
     </section>

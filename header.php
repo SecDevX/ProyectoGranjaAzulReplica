@@ -30,6 +30,8 @@
         <link rel="stylesheet" href="css/style_nosotros.css">
         <link rel="stylesheet" href="css/style_carta.css">
         <link rel="stylesheet" href="css/style_delivery.css">
+        <link rel="stylesheet" href="css/style_locales.css">
+        <link rel="stylesheet" href="css/style_contacto.css">
     </head>
     <body>
         <header>
@@ -54,9 +56,9 @@
                 <div class="header-buttons-container">
                     <a href="delivery.php" id="button-delivery">Delivery 👉🏻 Pídelo aquí</a>
                     <div class="locales-grid"> 
-                        <a href="#" class="header-button">Reservas Santa Clara</a>
-                        <a href="#" class="header-button">Reservas San Isidro</a>
-                        <a href="#" class="header-button">Reservas El Polo</a>
+                        <a href="https://granjaazul.mesa247.pe/reservas/granja-azul-santa-clara" class="header-button">Reservas Santa Clara</a>
+                        <a href="https://granjaazul.mesa247.pe/reservas/granja-azul-san-isidro1" class="header-button">Reservas San Isidro</a>
+                        <a href="https://granjaazul.mesa247.pe/reservas/granja-azul-el-polo" class="header-button">Reservas El Polo</a>
                     </div>
                 </div>
             </div>
