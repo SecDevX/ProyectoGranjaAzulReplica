@@ -25,5 +25,6 @@
                 </nav>
             </div>
         </footer>
+        <script src="js/calcular.js"></script>
     </body>
 </html>
