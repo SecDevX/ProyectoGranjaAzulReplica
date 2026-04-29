@@ -1,10 +1,34 @@
 document.addEventListener('DOMContentLoaded', () => {
     const btnSanIsidro = document.getElementById('btn-san-isidro');
+    const btnSantaClara = document.getElementById('btn-santa');
+    const btnAsia = document.getElementById('btn-asia');
     const sectionCards = document.getElementById('section-cards');
     const tiendaProductos = document.getElementById('tienda-productos');
 
     if (btnSanIsidro) {
         btnSanIsidro.addEventListener('click', (e) => {
+            e.preventDefault(); 
+
+            sectionCards.style.display = 'none';
+
+            tiendaProductos.style.display = 'block';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
+    if (btnSantaClara) {
+        btnSantaClara.addEventListener('click', (e) => {
+            e.preventDefault(); 
+
+            sectionCards.style.display = 'none';
+
+            tiendaProductos.style.display = 'block';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
+    if (btnAsia) {
+        btnAsia.addEventListener('click', (e) => {
             e.preventDefault(); 
 
             sectionCards.style.display = 'none';
