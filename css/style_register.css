@@ -1,0 +1,93 @@
+body {
+    background-color: var(--smokewhite, rgb(233, 233, 233));
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: var(--blue, rgba(0, 51, 108, 1));
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.back-arrow:hover {
+    transform: scale(1.1);
+}
+
+.auth-box {
+    background: var(--white, white);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
+
+.auth-box h2 {
+    color: var(--blue, rgba(0, 51, 108, 1));
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    color: var(--blue, rgba(0, 51, 108, 1));
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.input-group input, 
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--gray, rgb(212, 212, 212));
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.btn-auth {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: var(--blue, rgba(0, 51, 108, 1));
+    color: var(--white, white);
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-auth:hover {
+    background-color: var(--skybluef, rgb(4, 81, 168));
+}
+
+.auth-switch {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.auth-switch a {
+    color: var(--skybluef, rgb(4, 81, 168));
+    text-decoration: none;
+    font-weight: bold;
+}

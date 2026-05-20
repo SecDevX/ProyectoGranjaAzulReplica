@@ -21,10 +21,16 @@
                         <li class="footer-item"><a href="https://www.invertur.com.pe/granjaazul/politicadecookies.pdf">Política de cookies</a></li>
                         <li class="footer-item"><a href="https://ose.efact.pe/busca-tu-comprobante/">Comprobante electrónico</a></li>
                         <li class="footer-item"><a href="http://35.171.118.73/granja_azul/libro_reclamaciones/reclamacion.php"><i class="fa-solid fa-book"></i>Libro de reclamaciones</a></li>
+                        <?php if(isset($_SESSION['rol'])): ?>
+                            <li class="footer-item"><a href="auth/logout.php" style="color: #e74c3c;"><i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión (<?php echo htmlspecialchars($_SESSION['rol']); ?>)</a></li>
+                        <?php else: ?>
+                            <li class="footer-item"><a href="auth/login.php"><i class="fa-solid fa-user"></i> Login Interno</a></li>
+                        <?php endif; ?>
                     </ul>
                 </nav>
             </div>
         </footer>
         <script src="js/calcular.js"></script>
+        <script src="js/authview.js"></script>
     </body>
 </html>
